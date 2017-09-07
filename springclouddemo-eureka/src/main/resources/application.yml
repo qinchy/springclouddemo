@@ -8,4 +8,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/eureka/ #默认区域的配置，eureka和service和zuul应该保持一致

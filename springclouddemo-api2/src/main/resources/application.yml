@@ -4,6 +4,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/eureka/
+      defaultZone: http://localhost:8081/eureka/eureka/ #默认区域的配置，eureka和service和zuul应该保持一致
 server:
   port: 8083
+  context-path: /api2
