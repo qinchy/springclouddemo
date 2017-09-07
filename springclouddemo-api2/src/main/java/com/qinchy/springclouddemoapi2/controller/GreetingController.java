@@ -12,4 +12,9 @@ public class GreetingController {
     public String hello(@PathVariable String name){
         return "hello:"+name;
     }
+
+    @RequestMapping(path="/welcome")
+    public String welcome(){
+        return "欢迎你！";
+    }
 }
