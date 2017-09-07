@@ -7,6 +7,7 @@ spring:
     name: gateway
 server:
   port: 8084
+  context-path: /zuul
 zuul:
   routes:
     api1: /hello/welcome/**
