@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service.service
+    name: api2
 eureka:
   client:
     serviceUrl:
