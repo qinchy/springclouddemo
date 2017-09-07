@@ -10,5 +10,5 @@ server:
   context-path: /zuul
 zuul:
   routes:
-    api1: /api1/hello/greeting/**
-    api2: /api2/greeting/hello/**
+    api1: /api1/hello/**
+    api2: /api2/greeting/**
