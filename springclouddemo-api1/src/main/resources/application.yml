@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
+      defaultZone: http://localhost:8081/eureka/eureka/
 server:
   port: 8082
   context-path: /api1

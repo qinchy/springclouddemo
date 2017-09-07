@@ -31,8 +31,7 @@
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-commons</artifactId>
-			<version>RELEASE</version>
+			<artifactId>spring-cloud-starter-zuul</artifactId>
 		</dependency>
 
 		<dependency>
