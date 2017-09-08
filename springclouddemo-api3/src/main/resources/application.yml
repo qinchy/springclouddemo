@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api3
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/eureka/ #默认区域的配置，需要带上eureka模块的上下文，例如第一个eureka就是上下文。eureka和service和zuul的defaultZone应该保持一致，否则service和zuul注册不上。
+server:
+  port: 8084
+  context-path: /api3

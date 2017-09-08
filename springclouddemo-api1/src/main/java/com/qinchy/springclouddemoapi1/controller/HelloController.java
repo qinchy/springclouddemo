@@ -13,8 +13,8 @@ public class HelloController {
         return "欢迎您："+name;
     }
 
-    @RequestMapping(path="/welcome")
-    public String welcome(){
-        return "欢迎你！";
+    @RequestMapping(path="/welcome/{name}")
+    public String welcome(@PathVariable String name){
+        return "欢迎您："+name;
     }
 }

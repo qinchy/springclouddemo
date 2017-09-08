@@ -22,6 +22,7 @@
         <module>springclouddemo-eureka</module>
         <module>springclouddemo-api1</module>
         <module>springclouddemo-api2</module>
+        <module>springclouddemo-api3</module>
         <module>springclouddemo-zuul</module>
     </modules>
 

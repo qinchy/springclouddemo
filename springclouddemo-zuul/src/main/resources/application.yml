@@ -6,9 +6,10 @@ spring:
   application:
     name: gateway
 server:
-  port: 8084
+  port: 8085
   context-path: /zuul
 zuul:
   routes:
-    api1: /api1/**     #访问的时候是http://localhost:8084/zuul/api1/api1/hello/welcome，第一个api1是zuul路由用的，第二个api1是service的上下文
-    api2: /api2/**     #访问的时候是http://localhost:8084/zuul/api2/api2/greeting/welcome，第一个api2是zuul路由用的，第二个api2是service的上下文
+    api1: /api1/**     #访问的时候是http://localhost:8085/zuul/api1/api1/hello/welcome，第一个api1是zuul路由用的，第二个api1是service的上下文
+    api2: /api2/**     #访问的时候是http://localhost:8085/zuul/api2/api2/greeting/welcome，第一个api2是zuul路由用的，第二个api2是service的上下文
+    api3: /api3/**     #访问的时候是http://localhost:8085/zuul/api3/api3/sayhi/welcome，第一个api3是zuul路由用的，第二个api3是service的上下文
